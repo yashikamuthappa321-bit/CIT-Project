@@ -1,0 +1,9 @@
+public class ShiftOperators {
+    public static void main(String[] args) {
+        int x=8;
+        System.out.println("Left Shift:"+(x<<1));
+        System.out.println("Right Shift:"+(x>>1));
+        System.out.println("Unsigned Right shift:"+(x>>>2));
+    }
+    
+}
